@@ -1,1 +1,8 @@
 Simple example of testing functions.
+
+go test 
+go test -v 
+go test -coverprofile=coverage.out
+go tool cover -html=coverage.out 
+
+(ubuntu open file where you are: explorer.exe .)
